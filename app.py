@@ -26,7 +26,6 @@ def form():
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
-    /* Toggle Button Container */
     #chat-toggle {
       position: fixed;
       bottom: 20px;
@@ -122,13 +121,11 @@ def form():
 </head>
 <body>
 
-<!-- Floating Button with Image + Text -->
 <div id="chat-toggle">
   <img src="/static/robot.png" alt="Chat Icon">
   <span>Aura Bot</span>
 </div>
 
-<!-- Chat Box -->
 <div id="chat-box">
   <div id="chat-header">Aura Bot</div>
   <div id="chat-messages"></div>
