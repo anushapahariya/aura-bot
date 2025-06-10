@@ -17,7 +17,8 @@ bedrock_agent_runtime = boto3.client("bedrock-agent-runtime", region_name=BEDROC
 @app.route("/")
 def form():
     return '''
-   <!DOCTYPE html>
+   
+      <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -71,7 +72,6 @@ def form():
       background: white;
       border-radius: 10px;
       box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-      display: flex;
       flex-direction: column;
       overflow: hidden;
       font-family: Arial, sans-serif;
@@ -181,7 +181,7 @@ def form():
 
 </body>
 </html>
-
+   
     '''
 
 
